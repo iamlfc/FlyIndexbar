@@ -28,6 +28,7 @@ public class FlowLayout_A extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flow_layout);
+
         initView();
     }
 
@@ -42,6 +43,7 @@ public class FlowLayout_A extends AppCompatActivity {
                 TextView tv = (TextView) mInflater.inflate(R.layout.tv, mFlow01, false);
                 tv.setText(s);
                 return tv;
+
             }
 
         };
