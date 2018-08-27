@@ -31,6 +31,8 @@ dependencies {
     //    compile 'com.hyman:flowlayout-lib:1.1.2'
     implementation project(':flowlayout-lib')
     implementation project(':indexlib')
+    implementation 'com.zhy:base-rvadapter:3.0.3'
+
 }
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->

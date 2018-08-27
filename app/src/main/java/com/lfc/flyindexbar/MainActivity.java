@@ -7,12 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.lfc.flyindexbar.citylist.CitySelect_A;
+import com.lfc.flyindexbar.exliststyle.ListDemo_A;
 import com.lfc.flyindexbar.flylayout.FlowLayout_A;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button mBtnCitylist;
     private Button mBtnFlylayout;
+    private Button mBtnRlvex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 //流布局
                 startActivity(new Intent(MainActivity.this, FlowLayout_A.class));
+            }
+        });
+        mBtnRlvex = (Button) findViewById(R.id.btn_rlvex);
+        mBtnRlvex.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//流布局
+                startActivity(new Intent(MainActivity.this, ListDemo_A.class));
             }
         });
     }

@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".citylist.CitySelect_A">
         </activity>
+        <activity android:name=".exliststyle.ListDemo_A">
+        </activity>
     </application>
 
 </manifest>

@@ -19,4 +19,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="流布局"/>
+
+    <Button
+        android:id="@+id/btn_rlvex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="列表切换"/>
 </LinearLayout>
